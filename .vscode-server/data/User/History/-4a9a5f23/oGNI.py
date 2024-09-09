@@ -1,6 +1,6 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, get_object_or_404, redirect, resolve_url
+from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 
 from ..forms import AnswerForm
@@ -17,8 +17,7 @@ def answer_create(request, question_id):
             answer.create_date = timezone.now()
             answer.question = question
             answer.save()
-            return redirect('{}#answer_{}'.format(
-                    resolve_url('myapp:detail', question_id=question.id), answer.id))
+            return redirect('myapp:detail', question_id=question.id)
     else:
         form = AnswerForm()
     context = {'question': question, 'form': form}
@@ -36,8 +35,7 @@ def answer_modify(request, answer_id):
             answer = form.save(commit=False)
             answer.modify_date = timezone.now()
             answer.save()
-            return redirect('{}#answer_{}'.format(
-                    resolve_url('myapp:detail', question_id=answer.question.id), answer.id))
+            return redirect('myapp:detail', question_id=answer.question.id)
     else:
         form = AnswerForm(instance=answer)
     context = {'answer': answer, 'form': form}
@@ -58,6 +56,5 @@ def answer_vote(request, answer_id):
     if request.user == answer.author:
         messages.error(request, '본인이 작성한 글은 추천할수 없습니다')
     else:
-        answer.voter.add(request.user)  
-    return redirect('{}#answer_{}'.format(
-            resolve_url('myapp:detail', question_id=answer.question.id), answer.id))
+        answer.voter.add(request.user)
+    return redirect('myapp:detail', question_id=answer.question.id)
