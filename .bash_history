@@ -134,3 +134,61 @@ kill -9 482354
 ps -ef | grep python3
 history
 nohup python3 manage.py runserver 0:8000 &
+history
+git log
+git add .
+git commit -m "02"
+git status
+git push origin master
+sudo apt-get install git
+sudo yum install git
+df -h
+git config --global user.name tjdnf4415
+git config --global user.email min983106@gmail.com
+git config --list 
+ll
+pwd
+git init
+ll
+git remote add origin https://github.com/tjdnf4415/django_aws.git
+gir remote -v
+git remote -v
+git pull origin master
+git ls-remote --heads origi
+git pull origin main
+git remote -v
+ll
+git add .
+git commit -m "first commit"
+git push origin main
+git push origin master
+git push origin main
+git push origin master
+git push --force origin master
+ll
+cd .
+c d..
+ll
+cd ..
+ll
+mkdir backup
+sudo mkdir backup
+ll
+cd ..
+cd ~
+ll
+mv myapp_copy0826* ../backup/
+sudo mv myapp_copy0826* ../backup/
+ll
+python3 manage.py makemigrations
+python3 manage.py migrate
+git push origin master
+git pull origin master
+git push origin master
+git status
+git add .
+git status
+git commit -m "01"
+git push origin master
+git config --global credential.helper 'cache --timeout=31449600'
+git push origin master
