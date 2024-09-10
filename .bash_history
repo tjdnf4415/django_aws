@@ -192,3 +192,33 @@ git commit -m "01"
 git push origin master
 git config --global credential.helper 'cache --timeout=31449600'
 git push origin master
+ps -ef | grep python3
+kill -9 482461
+kill -9 682639
+ps -ef | grep python3
+history
+python3 manage.py runserver 0:8000
+history 
+nohup python3 manage.py runserver 0:8000 &
+git status
+git add .
+git commit -m "03"
+git push origin master
+python3 manage.py makemigrations
+python3 manage.py migrate
+pip3 install markdown
+git add .
+git commit -m "04_추천,앵커,마크다운"
+history
+git push origin master
+ps -ef | grep python3
+kill -9 682954
+kill -9 746638
+history 
+nohup python3 manage.py runserver 0:8000 &
+ll
+vi nohup.out
+tail -f nohup.out
+git status 
+git diff
+git log

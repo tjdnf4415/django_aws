@@ -11,12 +11,12 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:q
+|2,0,1725952501,,"q"
 :wq
 |2,0,1724654432,,"wq"
 :w
 |2,0,1724654428,,"w"
-:q
-|2,0,1724654353,,"q"
 
 # Search String History (newest to oldest):
 
@@ -29,18 +29,32 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/templates/myapp/question_list.html
-|4,48,1,0,1724654432,"~/templates/myapp/question_list.html"
+'0  23  2  ~/nohup.out
+|4,48,23,2,1725952501,"~/nohup.out"
 '1  1  0  ~/templates/myapp/question_list.html
-|4,49,1,0,1724654353,"~/templates/myapp/question_list.html"
+|4,49,1,0,1724654432,"~/templates/myapp/question_list.html"
+'2  1  0  ~/templates/myapp/question_list.html
+|4,50,1,0,1724654353,"~/templates/myapp/question_list.html"
 
 # Jumplist (newest first):
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
 -'  1  0  ~/templates/myapp/question_list.html
 |4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
 -'  1  0  ~/templates/myapp/question_list.html
 |4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/nohup.out
+	*	1725952498	0
+	"	23	2
 
 > ~/templates/myapp/question_list.html
 	*	1724654431	0
