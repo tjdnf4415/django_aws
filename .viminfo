@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q
-|2,0,1725952501,,"q"
 :wq
-|2,0,1724654432,,"wq"
+|2,0,1725967765,,"wq"
+:q
+|2,0,1725967360,,"q"
 :w
 |2,0,1724654428,,"w"
 
@@ -29,16 +29,70 @@
 # Registers:
 
 # File marks:
-'0  23  2  ~/nohup.out
-|4,48,23,2,1725952501,"~/nohup.out"
-'1  1  0  ~/templates/myapp/question_list.html
-|4,49,1,0,1724654432,"~/templates/myapp/question_list.html"
-'2  1  0  ~/templates/myapp/question_list.html
-|4,50,1,0,1724654353,"~/templates/myapp/question_list.html"
+'0  13  23  ~/.gitignore
+|4,48,13,23,1725967765,"~/.gitignore"
+'1  175  0  ~/.gitignore
+|4,49,175,0,1725967360,"~/.gitignore"
+'2  162  0  ~/.gitignore
+|4,50,162,0,1725967360,"~/.gitignore"
+'3  1  0  ~/.gitignore
+|4,51,1,0,1725967319,"~/.gitignore"
+'4  1  0  ~/.gitignore
+|4,52,1,0,1725967319,"~/.gitignore"
+'5  1  0  ~/.gitignore
+|4,53,1,0,1725967319,"~/.gitignore"
+'6  1  0  ~/.gitignore
+|4,54,1,0,1725967319,"~/.gitignore"
+'7  23  2  ~/nohup.out
+|4,55,23,2,1725952501,"~/nohup.out"
+'8  1  0  ~/templates/myapp/question_list.html
+|4,56,1,0,1724654432,"~/templates/myapp/question_list.html"
+'9  1  0  ~/templates/myapp/question_list.html
+|4,57,1,0,1724654353,"~/templates/myapp/question_list.html"
 
 # Jumplist (newest first):
+-'  13  23  ~/.gitignore
+|4,39,13,23,1725967765,"~/.gitignore"
+-'  175  0  ~/.gitignore
+|4,39,175,0,1725967374,"~/.gitignore"
+-'  162  0  ~/.gitignore
+|4,39,162,0,1725967360,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1725967327,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1725967327,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1725967319,"~/.gitignore"
 -'  23  2  ~/nohup.out
 |4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  23  2  ~/nohup.out
+|4,39,23,2,1725952501,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
+-'  1  0  ~/nohup.out
+|4,39,1,0,1725952497,"~/nohup.out"
 -'  1  0  ~/nohup.out
 |4,39,1,0,1725952497,"~/nohup.out"
 -'  1  0  ~/templates/myapp/question_list.html
@@ -46,11 +100,75 @@
 -'  1  0  ~/templates/myapp/question_list.html
 |4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
 -'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654432,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
+|4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
+-'  1  0  ~/templates/myapp/question_list.html
 |4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
 -'  1  0  ~/templates/myapp/question_list.html
 |4,39,1,0,1724654353,"~/templates/myapp/question_list.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1725967745	0
+	"	13	23
+	^	13	24
+	.	13	23
+	+	1	19
+	+	13	23
 
 > ~/nohup.out
 	*	1725952498	0
